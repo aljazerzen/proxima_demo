@@ -1,0 +1,22 @@
+{
+  "name": "proxima_demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: testing was removed from this app\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:aljazerzen/proxima_demo.git"
+  },
+  "author": "aljazerzen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4",
+    "require-all": "^2.2.0"
+  }
+}
